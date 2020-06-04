@@ -9,15 +9,18 @@
     
         <h1> Background is  blue </h1>
     <script>
-        function hello() {
-            var name = document.getElementById("name").value; 
-             alert('hello '+name);
-        }            
+        function Hello() {
+          var First_name = document.getElementById("First_name").value;
+          var Last_name = document.getElementById("Last_name").value; 
+             alert('Hello '+First_name+' '+Last_name);
+        }         
     </script>
 
     <form action ="/my -handling-form-page" methon="post">
-    <label for="name">Name:</label>
-    <input type  ="text"   id="name" name ="user_name">
-    <button type="button" onClick="hello()">Press me!</button>
+    <label for="First name">First Name:</label>
+    <input type  ="text"   id="First_name">
+    <label for="lname">Last_name:</label>
+  <input type="text" id="Last_name" name="lname"><br><br>
+ <button type="button" onClick="Hello()">Press me!</button>
 </body>
 </html>
