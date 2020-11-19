@@ -1,30 +1,43 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <style>
-            .container {
-                height: 100%;
+
+<head>
+
+    <style>
+        .container {
+            position: absolute;
+            right: 0;
+            top: 0px;
+            /* height: 100%;
                 width: 100%;
                 display: flex;
                 position: fixed;
                 align-items: center;
-                justify-content: center;
-            }
-        </style>
-     <title>Center</title>
-    </head>
- <body bgcolor='red'>
-    
+                justify-content: center; */
+        }
+    </style>
+    <title>Liam's page </title>
+</head>
+
+<body bgcolor='red'>
+
 
     <div class="container">
-            <font size="+4">Liam Santasiero<br> 12 Lowell ST.<br> South Portland Maine 04106<br> USA </font>
-            
+        <font size="+4">Liam Santasiero<br> 12 Lowell ST.<br> South Portland Maine 04106<br> USA <br>
+    </div>
 
-        </div>
-      </div>
+    <img src="here2slay.png" alt="here2slay.png">
+    <label for="First name">First Name:</label>
+    <input type  ="text"   id="First_name"/>
+    <button type="button" onClick="myFunction()">Press me!</button>
+    <script>
+        function myFunction() {
+            var First_name = document.getElementById("First_name").value;
+          alert('Hello '+First_name);
+          
+        }
+        </script>
 
+</body>
 
-
-
-    </body>
-</html> 
+</html>
